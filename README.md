@@ -84,4 +84,4 @@ chatapp/
 ## 👤 Author
 
 **Your Name**  
-GitHub: [your-username](https://github.com/your-username)
+GitHub: [Kunaljeetmuduli](https://github.com/Kunaljeetmuduli)
