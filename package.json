@@ -6,8 +6,18 @@
     "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend"
   },
-  "keywords": ["chatapp", "mern", "real-time", "websockets", "nodejs", "react"],
+  "keywords": [
+    "chatapp",
+    "mern",
+    "real-time",
+    "websockets",
+    "nodejs",
+    "react"
+  ],
   "author": "Kunaljeet Muduli",
   "license": "ISC",
-  "description": "A real-time chat application built with MERN stack featuring user-based filtering and modern UI"
+  "description": "A real-time chat application built with MERN stack featuring user-based filtering and modern UI",
+  "dependencies": {
+    "mongodb": "^6.18.0"
+  }
 }
