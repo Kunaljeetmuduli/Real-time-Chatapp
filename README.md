@@ -1,55 +1,87 @@
-<h1 align="center">✨ Fullstack Chat & Video Calling App ✨</h1>
+# MeetSphere – MERN Video Calling App
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
-
-Highlights:
-
-- 🌐 Real-time Messaging with Typing Indicators & Reactions
-- 📹 1-on-1 and Group Video Calls with Screen Sharing & Recording
-- 🔐 JWT Authentication & Protected Routes
-- 🌍 Language Exchange Platform with 32 Unique UI Themes
-- ⚡ Tech Stack: React + Express + MongoDB + TailwindCSS + TanStack Query
-- 🧠 Global State Management with Zustand
-- 🚨 Error Handling (Frontend & Backend)
-- 🚀 Free Deployment
-- 🎯 Built with Scalable Technologies like Stream
-- ⏳ And much more!
+MeetSphere is a real-time, one-on-one video calling web application built using the MERN stack, WebRTC, and Socket.IO. The app allows users to securely connect via video chat using peer-to-peer technology. This project was customized using a modern folder structure (`frontend/` and `backend/`) and includes state management and a styled UI.
 
 ---
 
-## 🧪 .env Setup
+## 🔧 Tech Stack
 
-### Backend (`/backend`)
+**Frontend (React):**
+- React.js (in `frontend/`)
+- Zustand (for global state management)
+- Tailwind CSS (for styling)
+- WebRTC (video/audio calls)
+- Socket.IO-client (real-time signaling)
 
-```
-PORT=5001
-MONGO_URI=your_mongo_uri
-STEAM_API_KEY=your_steam_api_key
-STEAM_API_SECRET=your_steam_api_secret
-JWT_SECRET_KEY=your_jwt_secret
-NODE_ENV=development
-```
-
-### Frontend (`/frontend`)
-
-```
-VITE_STREAM_API_KEY=your_stream_api_key
-```
+**Backend (Node.js):**
+- Node.js + Express (in `backend/`)
+- Socket.IO-server (signaling)
+- CORS + dotenv
 
 ---
 
-## 🔧 Run the Backend
+## ⚙️ Features
 
+- ✅ One-on-one secure video calling using WebRTC
+- ✅ Shareable unique room links
+- ✅ Responsive UI built with Tailwind CSS
+- ✅ Global state management via Zustand
+- ✅ Clean folder structure (frontend/backend)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/chatapp.git
+cd chatapp
+```
+
+### 2. Install dependencies
+
+#### Backend
 ```bash
 cd backend
 npm install
 npm run dev
 ```
 
-## 💻 Run the Frontend
-
+#### Frontend
 ```bash
-cd frontend
+cd ../frontend
 npm install
-npm run dev
+npm start
 ```
+
+### 3. Open your browser at `http://localhost:3000`
+
+---
+
+## 📁 Folder Structure
+
+```
+chatapp/
+├── frontend/   → React frontend (client)
+├── backend/    → Express backend (server)
+├── README.md
+├── package.json
+```
+
+---
+
+## ✨ Future Enhancements
+
+- Group video calls
+- Screen sharing
+- Chat messaging alongside video
+- Authentication (JWT)
+- MongoDB database integration
+
+---
+
+## 👤 Author
+
+**Your Name**  
+GitHub: [your-username](https://github.com/your-username)
