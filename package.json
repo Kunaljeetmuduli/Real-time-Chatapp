@@ -1,13 +1,13 @@
 {
-  "name": "streamify",
+  "name": "meetsphere",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["chatapp", "mern", "real-time", "websockets", "nodejs", "react"],
+  "author": "Kunaljeet Muduli",
   "license": "ISC",
-  "description": ""
+  "description": "A real-time chat application built with MERN stack featuring user-based filtering and modern UI"
 }
