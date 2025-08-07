@@ -83,5 +83,5 @@ chatapp/
 
 ## 👤 Author
 
-**Your Name**  
+**Kunaljeet Muduli**  
 GitHub: [Kunaljeetmuduli](https://github.com/Kunaljeetmuduli)
