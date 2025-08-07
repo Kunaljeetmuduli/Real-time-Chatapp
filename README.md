@@ -35,8 +35,8 @@ MeetSphere is a real-time, one-on-one video calling web application built using 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/chatapp.git
-cd chatapp
+git clone https://github.com/Kunaljeetmuduli/real-time-chatapp.git
+cd real-time-chatapp
 ```
 
 ### 2. Install dependencies
