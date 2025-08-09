@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from "react-router";
+import { Navigate, Route, Routes } from "react-router-dom";
 
 import HomePage from "./pages/HomePage.jsx";
 import SignUpPage from "./pages/SignUpPage.jsx";
@@ -16,7 +16,9 @@ import Layout from "./components/Layout.jsx";
 import { useThemeStore } from "./store/useThemeStore.js";
 
 const App = () => {
+  console.log("App component rendered");
   const { isLoading, authUser } = useAuthUser();
+  console.log("Auth state:", { isLoading, authUser });
   const { theme } = useThemeStore();
 
   const isAuthenticated = Boolean(authUser);
